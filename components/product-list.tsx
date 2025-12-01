@@ -5,7 +5,7 @@ import { ProductCard } from "./product-card";
 import { useState } from "react";
 
 interface Props {
-  product: Stripe.Product[];
+  products: Stripe.Product[];
 }
 
 export const ProductList = ({ products }: Props) => {
